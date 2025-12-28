@@ -1,0 +1,501 @@
+# OpenAPI Contract for AI-Native Book + RAG Chatbot Platform
+
+openapi: 3.0.3
+info:
+  title: AI-Native Book + RAG Chatbot Platform API
+  description: API for the AI-Native Unified Book + RAG Chatbot Platform
+  version: 1.0.0
+  contact:
+    name: API Support
+    email: support@ainativebook.com
+
+servers:
+  - url: https://api.ainativebook.com/v1
+    description: Production server
+
+paths:
+  /auth/signup:
+    post:
+      summary: User registration
+      description: Create a new user account
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserRegistration'
+      responses:
+        '201':
+          description: User successfully registered
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserResponse'
+        '400':
+          description: Invalid input
+        '409':
+          description: Email already exists
+
+  /auth/signin:
+    post:
+      summary: User login
+      description: Authenticate user and return session token
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserLogin'
+      responses:
+        '200':
+          description: Successfully authenticated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserAuthResponse'
+        '401':
+          description: Invalid credentials
+
+  /user/preferences:
+    get:
+      summary: Get user preferences
+      description: Retrieve the current user's preferences
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: User preferences retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserPreferences'
+    put:
+      summary: Update user preferences
+      description: Update the current user's preferences
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserPreferencesUpdate'
+      responses:
+        '200':
+          description: User preferences updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserPreferences'
+
+  /rag/query:
+    post:
+      summary: Ask a question about the book
+      description: Submit a question to the RAG system to get an answer based on book content
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RagQuery'
+      responses:
+        '200':
+          description: Answer to the question
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RagResponse'
+        '429':
+          description: Rate limit exceeded
+
+  /rag/highlight-query:
+    post:
+      summary: Ask a question about selected text
+      description: Submit a question about specific highlighted text from the book
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/HighlightRagQuery'
+      responses:
+        '200':
+          description: Answer to the question based on selected text
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RagResponse'
+        '429':
+          description: Rate limit exceeded
+
+  /translate/urdu:
+    post:
+      summary: Translate content to Urdu
+      description: Translate book content to Urdu
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TranslateRequest'
+      responses:
+        '200':
+          description: Translated content
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TranslateResponse'
+        '429':
+          description: Rate limit exceeded
+
+  /skills/glossary:
+    post:
+      summary: Generate glossary for content
+      description: Generate a glossary of important terms from book content
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SkillContentRequest'
+      responses:
+        '200':
+          description: Generated glossary
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GlossaryResponse'
+
+  /skills/summarize:
+    post:
+      summary: Summarize book content
+      description: Generate a summary of book content
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SkillContentRequest'
+      responses:
+        '200':
+          description: Generated summary
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SummaryResponse'
+
+  /skills/tutor:
+    post:
+      summary: Interact with personalized tutor
+      description: Get explanations and guidance from a personalized tutor
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TutorRequest'
+      responses:
+        '200':
+          description: Tutor response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TutorResponse'
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+  schemas:
+    UserRegistration:
+      type: object
+      required:
+        - email
+        - password
+        - firstName
+        - lastName
+      properties:
+        email:
+          type: string
+          format: email
+          example: "user@example.com"
+        password:
+          type: string
+          format: password
+          minLength: 8
+          example: "securePassword123"
+        firstName:
+          type: string
+          example: "John"
+        lastName:
+          type: string
+          example: "Doe"
+        technicalBackground:
+          type: string
+          enum: [beginner, intermediate, advanced]
+          example: "intermediate"
+        hardwareSpecs:
+          type: string
+          enum: [low-end, mid-range, high-end]
+          example: "mid-range"
+
+    UserLogin:
+      type: object
+      required:
+        - email
+        - password
+      properties:
+        email:
+          type: string
+          format: email
+          example: "user@example.com"
+        password:
+          type: string
+          format: password
+          example: "securePassword123"
+
+    UserResponse:
+      type: object
+      properties:
+        userId:
+          type: string
+          format: uuid
+          example: "550e8400-e29b-41d4-a716-446655440000"
+        email:
+          type: string
+          format: email
+          example: "user@example.com"
+        createdAt:
+          type: string
+          format: date-time
+          example: "2023-01-01T00:00:00Z"
+
+    UserAuthResponse:
+      type: object
+      properties:
+        accessToken:
+          type: string
+          example: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+        refreshToken:
+          type: string
+          example: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+        user:
+          $ref: '#/components/schemas/UserResponse'
+
+    UserPreferences:
+      type: object
+      properties:
+        userId:
+          type: string
+          format: uuid
+          example: "550e8400-e29b-41d4-a716-446655440000"
+        technicalBackground:
+          type: string
+          enum: [beginner, intermediate, advanced]
+          example: "intermediate"
+        hardwareSpecs:
+          type: string
+          enum: [low-end, mid-range, high-end]
+          example: "mid-range"
+        languagePreference:
+          type: string
+          example: "en"
+        contentLevel:
+          type: string
+          enum: [simplified, detailed, technical]
+          example: "detailed"
+        examplesPreference:
+          type: string
+          enum: [practical, theoretical]
+          example: "practical"
+        updatedAt:
+          type: string
+          format: date-time
+          example: "2023-01-01T00:00:00Z"
+
+    UserPreferencesUpdate:
+      type: object
+      properties:
+        technicalBackground:
+          type: string
+          enum: [beginner, intermediate, advanced]
+        hardwareSpecs:
+          type: string
+          enum: [low-end, mid-range, high-end]
+        languagePreference:
+          type: string
+        contentLevel:
+          type: string
+          enum: [simplified, detailed, technical]
+        examplesPreference:
+          type: string
+          enum: [practical, theoretical]
+
+    RagQuery:
+      type: object
+      required:
+        - question
+      properties:
+        question:
+          type: string
+          example: "What are the key components of an AI-native system?"
+        context:
+          type: string
+          example: "chapter-3-architecture"
+
+    HighlightRagQuery:
+      type: object
+      required:
+        - question
+        - selectedText
+      properties:
+        question:
+          type: string
+          example: "Can you explain this concept more?"
+        selectedText:
+          type: string
+          example: "An AI-native system is one where artificial intelligence is not just an add-on feature but is fundamentally integrated into the core architecture of the system from the ground up..."
+        context:
+          type: string
+          example: "chapter-3-architecture"
+
+    RagResponse:
+      type: object
+      properties:
+        answer:
+          type: string
+          example: "An AI-native system is one where AI is fundamentally integrated into the core architecture..."
+        sources:
+          type: array
+          items:
+            type: string
+          example: ["chapter-3-architecture", "chapter-5-design-principles"]
+        confidence:
+          type: number
+          format: float
+          minimum: 0
+          maximum: 1
+          example: 0.85
+
+    TranslateRequest:
+      type: object
+      required:
+        - content
+        - sourceLanguage
+        - targetLanguage
+      properties:
+        content:
+          type: string
+          example: "This is a paragraph from the book that needs translation."
+        sourceLanguage:
+          type: string
+          example: "en"
+        targetLanguage:
+          type: string
+          example: "ur"
+
+    TranslateResponse:
+      type: object
+      properties:
+        translatedContent:
+          type: string
+          example: "یہ کتاب کا ایک پیراگراف ہے جس کا ترجمہ کرنے کی ضرورت ہے۔"
+        sourceLanguage:
+          type: string
+          example: "en"
+        targetLanguage:
+          type: string
+          example: "ur"
+
+    SkillContentRequest:
+      type: object
+      required:
+        - content
+      properties:
+        content:
+          type: string
+          example: "In AI-native systems, the architecture is fundamentally designed around AI capabilities..."
+        context:
+          type: string
+          example: "chapter-4-ai-architecture"
+
+    GlossaryResponse:
+      type: object
+      properties:
+        terms:
+          type: array
+          items:
+            type: object
+            properties:
+              term:
+                type: string
+                example: "AI-native system"
+              definition:
+                type: string
+                example: "A system where artificial intelligence is fundamentally integrated into the core architecture from the ground up."
+        context:
+          type: string
+          example: "chapter-4-ai-architecture"
+
+    SummaryResponse:
+      type: object
+      properties:
+        summary:
+          type: string
+          example: "This chapter covers the fundamental principles of designing AI-native systems, focusing on architecture patterns..."
+        keyPoints:
+          type: array
+          items:
+            type: string
+          example: ["AI should be integrated from the ground up", "Consider scalability in design", "Plan for continuous learning"]
+        context:
+          type: string
+          example: "chapter-4-ai-architecture"
+
+    TutorRequest:
+      type: object
+      required:
+        - question
+      properties:
+        question:
+          type: string
+          example: "I'm having trouble understanding the concept of neural networks in this chapter"
+        context:
+          type: string
+          example: "chapter-6-neural-networks"
+        studentLevel:
+          type: string
+          enum: [beginner, intermediate, advanced]
+          example: "beginner"
+
+    TutorResponse:
+      type: object
+      properties:
+        explanation:
+          type: string
+          example: "Neural networks are computing systems inspired by the human brain..."
+        examples:
+          type: array
+          items:
+            type: string
+          example: ["Think of it like a decision tree", "It processes information in layers"]
+        followupQuestions:
+          type: array
+          items:
+            type: string
+          example: ["Would you like a more technical explanation?", "Can you provide an example of what you're struggling with?"]

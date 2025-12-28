@@ -1,0 +1,648 @@
+2025-12-07 03:17:46,497 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 03:18:24,290 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 03:18:47,498 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 03:19:39,826 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 03:32:50,098 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 04:23:24,295 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 04:32:09,230 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 04:32:27,224 - src.utils.logging - ERROR - Internal server error: No module named 'agents'
+2025-12-07 04:36:15,698 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 04:36:20,726 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 04:36:41,419 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 04:40:39,310 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 04:41:10,890 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 04:58:11,120 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 04:58:36,331 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 04:59:53,276 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 04:59:59,624 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 05:00:29,305 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 05:00:29,318 - src.utils.logging - ERROR - Internal server error: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-12-07 05:03:57,998 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 05:04:11,578 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 05:04:16,156 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:04:16,429 - httpx - INFO - HTTP Request: POST https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors/points/search "HTTP/1.1 400 Bad Request"
+2025-12-07 05:04:18,898 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:06:08,531 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 05:06:15,810 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 05:06:29,523 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 05:06:32,016 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:06:32,290 - httpx - INFO - HTTP Request: POST https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors/points/search "HTTP/1.1 400 Bad Request"
+2025-12-07 05:06:35,243 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:07:04,765 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:07:05,272 - httpx - INFO - HTTP Request: POST https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors/points/search "HTTP/1.1 400 Bad Request"
+2025-12-07 05:07:06,137 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:07:20,871 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:07:21,402 - httpx - INFO - HTTP Request: POST https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors/points/search "HTTP/1.1 400 Bad Request"
+2025-12-07 05:07:22,213 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:35:25,094 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 05:35:29,779 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 200 OK"
+2025-12-07 05:35:32,762 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:35:33,482 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:37:44,857 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 200 OK"
+2025-12-07 05:37:53,225 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 200 OK"
+2025-12-07 05:38:10,336 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 200 OK"
+2025-12-07 05:38:12,292 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:38:13,685 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:38:56,742 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:38:58,309 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:48:23,213 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:48:24,278 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-07 05:48:41,365 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-07 05:48:42,167 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-25 14:59:28,466 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 14:59:28,649 - httpx - INFO - HTTP Request: PUT https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 14:59:29,225 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 14:59:29,374 - httpx - INFO - HTTP Request: PUT https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 15:01:49,949 - src.utils.logging - WARNING - Resource not found: 404: Not Found | context={'extra': {'url': 'http://localhost:8000/favicon.ico'}}
+2025-12-25 15:01:49,950 - src.utils.logging - ERROR - Internal server error: 'dict' object is not callable | context={'extra': {'url': 'http://localhost:8000/favicon.ico'}}
+2025-12-25 15:06:08,564 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-25 15:06:22,389 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-25 15:13:51,634 - src.utils.logging - INFO - Starting up application... | context={}
+2025-12-25 15:13:55,429 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 404 Not Found"
+2025-12-25 15:13:55,937 - httpx - INFO - HTTP Request: PUT https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 404 Not Found"
+2025-12-25 15:13:55,938 - src.services.data_loader - ERROR - Failed to initialize data loader pipeline: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+2025-12-25 15:13:57,676 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 15:13:57,901 - httpx - INFO - HTTP Request: PUT https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 15:13:57,902 - backend.src.utils.qdrant - ERROR - Failed to create collection: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+2025-12-25 15:13:57,902 - backend.src.utils.qdrant - WARNING - Failed to initialize Qdrant connection: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'. The service will continue but RAG features may not work.
+2025-12-25 15:13:58,228 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 15:13:58,228 - backend.src.utils.qdrant - ERROR - Error getting collection count: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+2025-12-25 15:13:58,228 - src.services.data_loader - INFO - Current vector count in collection: 0
+2025-12-25 15:13:58,228 - src.services.data_loader - INFO - Vector database is empty, attempting to load book content...
+2025-12-25 15:13:58,228 - src.services.data_loader - WARNING - Pipeline not initialized, cannot load data
+2025-12-25 15:13:58,229 - src.services.data_loader - WARNING - No book content found to load. Vector database remains empty.
+2025-12-25 15:13:58,229 - src.utils.logging - INFO - Startup data loading completed | context={}
+2025-12-25 15:15:30,574 - src.utils.logging - INFO - Shutting down application... | context={}
+2025-12-25 15:15:37,133 - src.utils.logging - INFO - Starting up application... | context={}
+2025-12-25 15:15:38,989 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 404 Not Found"
+2025-12-25 15:15:39,127 - httpx - INFO - HTTP Request: PUT https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 404 Not Found"
+2025-12-25 15:15:39,128 - src.services.data_loader - ERROR - Failed to initialize data loader pipeline: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+2025-12-25 15:15:40,055 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 15:15:40,207 - httpx - INFO - HTTP Request: PUT https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 15:15:40,208 - backend.src.utils.qdrant - ERROR - Failed to create collection: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+2025-12-25 15:15:40,209 - backend.src.utils.qdrant - WARNING - Failed to initialize Qdrant connection: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'. The service will continue but RAG features may not work.
+2025-12-25 15:15:40,357 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 15:15:40,357 - backend.src.utils.qdrant - ERROR - Error getting collection count: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+2025-12-25 15:15:40,357 - src.services.data_loader - INFO - Current vector count in collection: 0
+2025-12-25 15:15:40,358 - src.services.data_loader - INFO - Vector database is empty, attempting to load book content...
+2025-12-25 15:15:40,358 - src.services.data_loader - WARNING - Pipeline not initialized, cannot load data
+2025-12-25 15:15:40,358 - src.services.data_loader - WARNING - No book content found to load. Vector database remains empty.
+2025-12-25 15:15:40,358 - src.utils.logging - INFO - Startup data loading completed | context={}
+2025-12-25 15:15:44,020 - src.utils.logging - INFO - Starting up application... | context={}
+2025-12-25 15:15:45,090 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 404 Not Found"
+2025-12-25 15:15:45,232 - httpx - INFO - HTTP Request: PUT https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 404 Not Found"
+2025-12-25 15:15:45,233 - src.services.data_loader - ERROR - Failed to initialize data loader pipeline: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+2025-12-25 15:15:45,928 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 15:15:46,079 - httpx - INFO - HTTP Request: PUT https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 15:15:46,080 - backend.src.utils.qdrant - ERROR - Failed to create collection: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+2025-12-25 15:15:46,080 - backend.src.utils.qdrant - WARNING - Failed to initialize Qdrant connection: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'. The service will continue but RAG features may not work.
+2025-12-25 15:15:46,228 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 15:15:46,229 - backend.src.utils.qdrant - ERROR - Error getting collection count: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+2025-12-25 15:15:46,229 - src.services.data_loader - INFO - Current vector count in collection: 0
+2025-12-25 15:15:46,230 - src.services.data_loader - INFO - Vector database is empty, attempting to load book content...
+2025-12-25 15:15:46,230 - src.services.data_loader - WARNING - Pipeline not initialized, cannot load data
+2025-12-25 15:15:46,230 - src.services.data_loader - WARNING - No book content found to load. Vector database remains empty.
+2025-12-25 15:15:46,230 - src.utils.logging - INFO - Startup data loading completed | context={}
+2025-12-25 15:20:40,996 - src.utils.logging - INFO - Shutting down application... | context={}
+2025-12-25 15:20:48,932 - src.utils.logging - INFO - Starting up application... | context={}
+2025-12-25 15:20:51,117 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 404 Not Found"
+2025-12-25 15:20:51,262 - httpx - INFO - HTTP Request: PUT https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 404 Not Found"
+2025-12-25 15:20:51,263 - src.services.data_loader - ERROR - Failed to initialize data loader pipeline: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+2025-12-25 15:20:52,434 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 15:20:52,590 - httpx - INFO - HTTP Request: PUT https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 15:20:52,592 - backend.src.utils.qdrant - ERROR - Failed to create collection: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+2025-12-25 15:20:52,592 - backend.src.utils.qdrant - WARNING - Failed to initialize Qdrant connection: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'. The service will continue but RAG features may not work.
+2025-12-25 15:20:52,741 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 15:20:52,743 - backend.src.utils.qdrant - ERROR - Error getting collection count: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+2025-12-25 15:20:52,744 - src.services.data_loader - INFO - Current vector count in collection: 0
+2025-12-25 15:20:52,744 - src.services.data_loader - INFO - Vector database is empty, attempting to load book content...
+2025-12-25 15:20:52,744 - src.services.data_loader - WARNING - Pipeline not initialized, cannot load data
+2025-12-25 15:20:52,745 - src.services.data_loader - WARNING - No book content found to load. Vector database remains empty.
+2025-12-25 15:20:52,745 - src.utils.logging - INFO - Startup data loading completed | context={}
+2025-12-25 15:25:28,192 - src.utils.logging - INFO - Starting up application... | context={}
+2025-12-25 15:25:29,989 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 404 Not Found"
+2025-12-25 15:25:30,340 - httpx - INFO - HTTP Request: PUT https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/book_vectors "HTTP/1.1 404 Not Found"
+2025-12-25 15:25:30,342 - src.services.data_loader - ERROR - Failed to initialize data loader pipeline: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+2025-12-25 15:25:32,091 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 15:25:32,371 - httpx - INFO - HTTP Request: PUT https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 15:25:32,373 - backend.src.utils.qdrant - ERROR - Failed to create collection: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+2025-12-25 15:25:32,373 - backend.src.utils.qdrant - WARNING - Failed to initialize Qdrant connection: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'. The service will continue but RAG features may not work.
+2025-12-25 15:25:32,512 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 15:25:32,513 - backend.src.utils.qdrant - ERROR - Error getting collection count: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+2025-12-25 15:25:32,514 - src.services.data_loader - INFO - Current vector count in collection: 0
+2025-12-25 15:25:32,514 - src.services.data_loader - INFO - Vector database is empty, attempting to load book content...
+2025-12-25 15:25:32,514 - src.services.data_loader - WARNING - Pipeline not initialized, cannot load data
+2025-12-25 15:25:32,514 - src.services.data_loader - WARNING - No book content found to load. Vector database remains empty.
+2025-12-25 15:25:32,514 - src.utils.logging - INFO - Startup data loading completed | context={}
+2025-12-25 15:28:18,917 - src.utils.logging - INFO - Starting up application... | context={}
+2025-12-25 15:28:21,181 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 15:28:21,324 - httpx - INFO - HTTP Request: PUT https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 15:28:21,326 - src.services.data_loader - ERROR - Failed to initialize data loader pipeline: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+Traceback (most recent call last):
+  File "C:\AI Agentic\AI-native-textbook\pipelines\uploader.py", line 25, in _ensure_collection_exists
+    self.client.get_collection(self.collection_name)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\qdrant_client.py", line 2084, in get_collection
+    return self._client.get_collection(collection_name=collection_name, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\qdrant_remote.py", line 2610, in get_collection
+    result: Optional[types.CollectionInfo] = self.http.collections_api.get_collection(
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        collection_name=collection_name
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ).result
+    ^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\http\api\collections_api.py", line 1314, in get_collection
+    return self._build_for_get_collection(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        collection_name=collection_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\http\api\collections_api.py", line 397, in _build_for_get_collection
+    return self.api_client.request(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        type_=m.InlineResponse2005,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        path_params=path_params,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\http\api_client.py", line 79, in request
+    return self.send(request, type_)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\http\api_client.py", line 102, in send
+    raise UnexpectedResponse.for_response(response)
+qdrant_client.http.exceptions.UnexpectedResponse: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\AI Agentic\AI-native-textbook\backend\src\services\data_loader.py", line 56, in _initialize_pipeline
+    self.pipeline = IngestionPipeline(
+                    ~~~~~~~~~~~~~~~~~^
+        openai_api_key=settings.OPENAI_API_KEY,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        collection_name=settings.QDRANT_COLLECTION_NAME
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\AI Agentic\AI-native-textbook\pipelines\main_ingestion.py", line 28, in __init__
+    self.uploader = Uploader(qdrant_url=qdrant_url, qdrant_api_key=qdrant_api_key, collection_name=collection)
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\AI Agentic\AI-native-textbook\pipelines\uploader.py", line 17, in __init__
+    self._ensure_collection_exists()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\AI Agentic\AI-native-textbook\pipelines\uploader.py", line 30, in _ensure_collection_exists
+    self.client.create_collection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        collection_name=self.collection_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        vectors_config=VectorParams(size=1536, distance=Distance.COSINE)  # Default for OpenAI embeddings
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\qdrant_client.py", line 2236, in create_collection
+    return self._client.create_collection(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        collection_name=collection_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<13 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\qdrant_remote.py", line 2821, in create_collection
+    result: Optional[bool] = self.http.collections_api.create_collection(
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        collection_name=collection_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        create_collection=create_collection_request,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        timeout=timeout,
+        ^^^^^^^^^^^^^^^^
+    ).result
+    ^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\http\api\collections_api.py", line 1170, in create_collection
+    return self._build_for_create_collection(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        collection_name=collection_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        timeout=timeout,
+        ^^^^^^^^^^^^^^^^
+        create_collection=create_collection,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\http\api\collections_api.py", line 116, in _build_for_create_collection
+    return self.api_client.request(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        type_=m.InlineResponse200,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        content=body,
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\http\api_client.py", line 79, in request
+    return self.send(request, type_)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\http\api_client.py", line 102, in send
+    raise UnexpectedResponse.for_response(response)
+qdrant_client.http.exceptions.UnexpectedResponse: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+2025-12-25 15:28:22,885 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 15:28:23,037 - httpx - INFO - HTTP Request: PUT https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 15:28:23,037 - backend.src.utils.qdrant - ERROR - Failed to create collection: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+2025-12-25 15:28:23,038 - backend.src.utils.qdrant - WARNING - Failed to initialize Qdrant connection: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'. The service will continue but RAG features may not work.
+2025-12-25 15:28:23,228 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-25 15:28:23,229 - backend.src.utils.qdrant - ERROR - Error getting collection count: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+2025-12-25 15:28:23,230 - src.services.data_loader - INFO - Current vector count in collection: 0
+2025-12-25 15:28:23,230 - src.services.data_loader - INFO - Vector database is empty, attempting to load book content...
+2025-12-25 15:28:23,231 - src.services.data_loader - WARNING - Pipeline not initialized, cannot load data
+2025-12-25 15:28:23,231 - src.services.data_loader - WARNING - No book content found to load. Vector database remains empty.
+2025-12-25 15:28:23,231 - src.utils.logging - INFO - Startup data loading completed | context={}
+2025-12-28 14:41:27,071 - src.utils.logging - INFO - Starting up application... | context={}
+2025-12-28 14:41:29,823 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-28 14:41:30,149 - httpx - INFO - HTTP Request: PUT https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-28 14:41:30,151 - src.services.data_loader - ERROR - Failed to initialize data loader pipeline: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+Traceback (most recent call last):
+  File "C:\AI Agentic\AI-native-textbook\pipelines\uploader.py", line 25, in _ensure_collection_exists
+    self.client.get_collection(self.collection_name)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\qdrant_client.py", line 2084, in get_collection
+    return self._client.get_collection(collection_name=collection_name, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\qdrant_remote.py", line 2610, in get_collection
+    result: Optional[types.CollectionInfo] = self.http.collections_api.get_collection(
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        collection_name=collection_name
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ).result
+    ^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\http\api\collections_api.py", line 1314, in get_collection
+    return self._build_for_get_collection(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        collection_name=collection_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\http\api\collections_api.py", line 397, in _build_for_get_collection
+    return self.api_client.request(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        type_=m.InlineResponse2005,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        path_params=path_params,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\http\api_client.py", line 79, in request
+    return self.send(request, type_)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\http\api_client.py", line 102, in send
+    raise UnexpectedResponse.for_response(response)
+qdrant_client.http.exceptions.UnexpectedResponse: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\AI Agentic\AI-native-textbook\backend\src\services\data_loader.py", line 56, in _initialize_pipeline
+    self.pipeline = IngestionPipeline(
+                    ~~~~~~~~~~~~~~~~~^
+        openai_api_key=settings.OPENAI_API_KEY,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        collection_name=settings.QDRANT_COLLECTION_NAME
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\AI Agentic\AI-native-textbook\pipelines\main_ingestion.py", line 28, in __init__
+    self.uploader = Uploader(qdrant_url=qdrant_url, qdrant_api_key=qdrant_api_key, collection_name=collection)
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\AI Agentic\AI-native-textbook\pipelines\uploader.py", line 17, in __init__
+    self._ensure_collection_exists()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\AI Agentic\AI-native-textbook\pipelines\uploader.py", line 30, in _ensure_collection_exists
+    self.client.create_collection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        collection_name=self.collection_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        vectors_config=VectorParams(size=1536, distance=Distance.COSINE)  # Default for OpenAI embeddings
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\qdrant_client.py", line 2236, in create_collection
+    return self._client.create_collection(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        collection_name=collection_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<13 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\qdrant_remote.py", line 2821, in create_collection
+    result: Optional[bool] = self.http.collections_api.create_collection(
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        collection_name=collection_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        create_collection=create_collection_request,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        timeout=timeout,
+        ^^^^^^^^^^^^^^^^
+    ).result
+    ^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\http\api\collections_api.py", line 1170, in create_collection
+    return self._build_for_create_collection(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        collection_name=collection_name,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        timeout=timeout,
+        ^^^^^^^^^^^^^^^^
+        create_collection=create_collection,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\http\api\collections_api.py", line 116, in _build_for_create_collection
+    return self.api_client.request(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        type_=m.InlineResponse200,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        content=body,
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\http\api_client.py", line 79, in request
+    return self.send(request, type_)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\muham\AppData\Roaming\Python\Python313-32\site-packages\qdrant_client\http\api_client.py", line 102, in send
+    raise UnexpectedResponse.for_response(response)
+qdrant_client.http.exceptions.UnexpectedResponse: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+2025-12-28 14:41:31,631 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-28 14:41:31,910 - httpx - INFO - HTTP Request: PUT https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-28 14:41:31,911 - backend.src.utils.qdrant - ERROR - Failed to create collection: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+2025-12-28 14:41:31,912 - backend.src.utils.qdrant - WARNING - Failed to initialize Qdrant connection: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'. The service will continue but RAG features may not work.
+2025-12-28 14:41:32,272 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 404 Not Found"
+2025-12-28 14:41:32,273 - backend.src.utils.qdrant - ERROR - Error getting collection count: Unexpected Response: 404 (Not Found)
+Raw response content:
+b'404 page not found\n'
+2025-12-28 14:41:32,273 - src.services.data_loader - INFO - Current vector count in collection: 0
+2025-12-28 14:41:32,273 - src.services.data_loader - INFO - Vector database is empty, attempting to load book content...
+2025-12-28 14:41:32,274 - src.services.data_loader - WARNING - Pipeline not initialized, cannot load data
+2025-12-28 14:41:32,274 - src.services.data_loader - WARNING - No book content found to load. Vector database remains empty.
+2025-12-28 14:41:32,274 - src.utils.logging - INFO - Startup data loading completed | context={}
+2025-12-28 14:46:03,937 - src.utils.logging - INFO - Starting up application... | context={}
+2025-12-28 14:46:10,136 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 200 OK"
+2025-12-28 14:46:10,202 - src.services.data_loader - INFO - Data loader pipeline initialized with collection: content
+2025-12-28 14:46:12,228 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 200 OK"
+2025-12-28 14:46:12,238 - backend.src.utils.qdrant - INFO - Collection content already exists
+2025-12-28 14:46:12,508 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 200 OK"
+2025-12-28 14:46:12,509 - src.services.data_loader - INFO - Current vector count in collection: 0
+2025-12-28 14:46:12,509 - src.services.data_loader - INFO - Vector database is empty, attempting to load book content...
+2025-12-28 14:46:12,510 - src.services.data_loader - INFO - Fetching content from GitHub using raw URLs: Sani-e-Zehra/ai-native-book/docs
+2025-12-28 14:46:14,369 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/01-introduction.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:16,335 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/02-fundamentals.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:18,133 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/03-design-principles.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:19,703 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/04-motor-control.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:20,916 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/05-sensor-fusion.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:22,549 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/06-locomotion.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:24,106 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/07-ai-systems.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:26,291 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/08-control-theory.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:27,819 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/09-case-studies.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:28,851 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/introduction.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:30,427 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/fundamentals.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:32,173 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/design-principles.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:33,315 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/motor-control.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:34,562 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/sensor-fusion.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:35,923 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/locomotion.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:37,026 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/ai-systems.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:38,820 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/control-theory.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:40,626 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/case-studies.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:41,977 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/chapter-01.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:43,507 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/chapter-02.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:44,995 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/chapter-03.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:46,811 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/chapter-04.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:48,354 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/chapter-05.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:49,498 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/chapter-06.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:51,573 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/chapter-07.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:52,904 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/chapter-08.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:54,065 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/chapter-09.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:46:57,421 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/index.md "HTTP/1.1 200 OK"
+2025-12-28 14:47:01,032 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-28 14:47:04,348 - httpx - INFO - HTTP Request: PUT https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content/points?wait=true "HTTP/1.1 200 OK"
+2025-12-28 14:47:04,351 - src.services.data_loader - INFO - Loaded 6 chunks from GitHub: index.md
+2025-12-28 14:47:06,437 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/README.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:47:08,672 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/getting-started.md "HTTP/1.1 404 Not Found"
+2025-12-28 14:47:08,674 - src.services.data_loader - INFO - Successfully loaded 6 total chunks from GitHub
+2025-12-28 14:47:08,675 - src.services.data_loader - INFO - Successfully loaded content from GitHub repository
+2025-12-28 14:47:10,492 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 200 OK"
+2025-12-28 14:47:10,494 - src.services.data_loader - INFO - Successfully loaded data. New vector count: 6
+2025-12-28 14:47:10,494 - src.utils.logging - INFO - Startup data loading completed | context={}
+2025-12-28 14:50:56,892 - src.utils.logging - INFO - Shutting down application... | context={}
+2025-12-28 14:51:03,908 - src.utils.logging - INFO - Starting up application... | context={}
+2025-12-28 14:51:14,121 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 200 OK"
+2025-12-28 14:51:14,134 - src.services.data_loader - INFO - Data loader pipeline initialized with collection: content
+2025-12-28 14:51:20,954 - backend.src.utils.qdrant - ERROR - Error checking/creating collection: _ssl.c:1018: The handshake operation timed out
+2025-12-28 14:51:20,955 - backend.src.utils.qdrant - WARNING - Failed to initialize Qdrant connection: _ssl.c:1018: The handshake operation timed out. The service will continue but RAG features may not work.
+2025-12-28 14:51:21,825 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 200 OK"
+2025-12-28 14:51:21,829 - src.services.data_loader - INFO - Current vector count in collection: 6
+2025-12-28 14:51:21,830 - src.services.data_loader - INFO - Vector database already has 6 vectors, skipping data load
+2025-12-28 14:51:21,830 - src.utils.logging - INFO - Startup data loading completed | context={}
+2025-12-28 14:55:57,509 - src.utils.logging - INFO - Shutting down application... | context={}
+2025-12-28 14:56:01,005 - src.utils.logging - INFO - Starting up application... | context={}
+2025-12-28 14:56:02,798 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 200 OK"
+2025-12-28 14:56:02,839 - src.services.data_loader - INFO - Data loader pipeline initialized with collection: content
+2025-12-28 14:56:04,479 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 200 OK"
+2025-12-28 14:56:04,481 - backend.src.utils.qdrant - INFO - Collection content already exists
+2025-12-28 14:56:04,669 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 200 OK"
+2025-12-28 14:56:04,678 - src.services.data_loader - INFO - Current vector count in collection: 6
+2025-12-28 14:56:04,678 - src.services.data_loader - INFO - Vector database already has 6 vectors, skipping data load
+2025-12-28 14:56:04,679 - src.utils.logging - INFO - Startup data loading completed | context={}
+2025-12-28 14:56:35,136 - src.utils.logging - INFO - Starting up application... | context={}
+2025-12-28 14:56:38,742 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 200 OK"
+2025-12-28 14:56:38,760 - src.services.data_loader - INFO - Data loader pipeline initialized with collection: content
+2025-12-28 14:56:40,567 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 200 OK"
+2025-12-28 14:56:40,679 - backend.src.utils.qdrant - INFO - Collection content already exists
+2025-12-28 14:56:40,854 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 200 OK"
+2025-12-28 14:56:40,856 - src.services.data_loader - INFO - Current vector count in collection: 6
+2025-12-28 14:56:40,857 - src.services.data_loader - INFO - Vector database already has 6 vectors, skipping data load
+2025-12-28 14:56:40,857 - src.utils.logging - INFO - Startup data loading completed | context={}
+2025-12-28 14:59:25,965 - src.utils.logging - INFO - Starting up application... | context={}
+2025-12-28 14:59:31,060 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 200 OK"
+2025-12-28 14:59:31,076 - src.services.data_loader - INFO - Data loader pipeline initialized with collection: content
+2025-12-28 14:59:35,569 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 200 OK"
+2025-12-28 14:59:35,579 - backend.src.utils.qdrant - INFO - Collection content already exists
+2025-12-28 14:59:35,788 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 200 OK"
+2025-12-28 14:59:35,790 - src.services.data_loader - INFO - Current vector count in collection: 0
+2025-12-28 14:59:35,790 - src.services.data_loader - INFO - Vector database is empty, attempting to load book content...
+2025-12-28 14:59:35,790 - src.services.data_loader - INFO - Fetching content from GitHub using raw URLs: Sani-e-Zehra/ai-native-book/docs
+2025-12-28 14:59:38,780 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/chapter-1-introduction.md "HTTP/1.1 200 OK"
+2025-12-28 14:59:38,785 - src.services.data_loader - INFO - Successfully fetched chapter-1-introduction.md (6391 characters)
+2025-12-28 14:59:43,847 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-28 15:00:00,576 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/chapter-2-fundamentals.md "HTTP/1.1 200 OK"
+2025-12-28 15:00:00,587 - src.services.data_loader - INFO - Successfully fetched chapter-2-fundamentals.md (9189 characters)
+2025-12-28 15:00:10,429 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-28 15:00:19,503 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/chapter-3-design.md "HTTP/1.1 200 OK"
+2025-12-28 15:00:19,505 - src.services.data_loader - INFO - Successfully fetched chapter-3-design.md (14104 characters)
+2025-12-28 15:00:21,988 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-28 15:00:30,280 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/chapter-4-motor-control.md "HTTP/1.1 200 OK"
+2025-12-28 15:00:30,285 - src.services.data_loader - INFO - Successfully fetched chapter-4-motor-control.md (16416 characters)
+2025-12-28 15:00:36,477 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-28 15:00:44,030 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/chapter-5-sensor-fusion.md "HTTP/1.1 200 OK"
+2025-12-28 15:00:44,039 - src.services.data_loader - INFO - Successfully fetched chapter-5-sensor-fusion.md (15247 characters)
+2025-12-28 15:00:46,228 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-28 15:00:54,107 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/chapter-6-locomotion.md "HTTP/1.1 200 OK"
+2025-12-28 15:00:54,109 - src.services.data_loader - INFO - Successfully fetched chapter-6-locomotion.md (16527 characters)
+2025-12-28 15:00:56,849 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-28 15:01:05,044 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/chapter-7-ai-systems.md "HTTP/1.1 200 OK"
+2025-12-28 15:01:05,050 - src.services.data_loader - INFO - Successfully fetched chapter-7-ai-systems.md (18551 characters)
+2025-12-28 15:01:14,768 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-28 15:01:23,661 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/chapter-8-control-theory.md "HTTP/1.1 200 OK"
+2025-12-28 15:01:23,722 - src.services.data_loader - INFO - Successfully fetched chapter-8-control-theory.md (19513 characters)
+2025-12-28 15:01:29,511 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-28 15:01:40,550 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/chapter-9-applications.md "HTTP/1.1 200 OK"
+2025-12-28 15:01:40,567 - src.services.data_loader - INFO - Successfully fetched chapter-9-applications.md (22172 characters)
+2025-12-28 15:01:45,375 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-28 15:01:58,156 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/conclusion.md "HTTP/1.1 200 OK"
+2025-12-28 15:01:58,160 - src.services.data_loader - INFO - Successfully fetched conclusion.md (10011 characters)
+2025-12-28 15:01:59,757 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-28 15:02:07,199 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/index.md "HTTP/1.1 200 OK"
+2025-12-28 15:02:07,201 - src.services.data_loader - INFO - Successfully fetched index.md (3718 characters)
+2025-12-28 15:02:08,827 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-28 15:02:19,167 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/Sani-e-Zehra/ai-native-book/main/docs/intro.md "HTTP/1.1 200 OK"
+2025-12-28 15:02:19,169 - src.services.data_loader - INFO - Successfully fetched intro.md (1416 characters)
+2025-12-28 15:02:22,242 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-28 15:02:27,567 - httpx - INFO - HTTP Request: PUT https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content/points?wait=true "HTTP/1.1 200 OK"
+2025-12-28 15:02:27,572 - src.services.data_loader - INFO - Loaded 3 chunks from GitHub: intro.md
+2025-12-28 15:02:27,573 - src.services.data_loader - INFO - Successfully loaded 3 total chunks from GitHub
+2025-12-28 15:02:27,573 - src.services.data_loader - INFO - Successfully loaded content from GitHub repository
+2025-12-28 15:02:28,543 - httpx - INFO - HTTP Request: GET https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content "HTTP/1.1 200 OK"
+2025-12-28 15:02:28,545 - src.services.data_loader - INFO - Successfully loaded data. New vector count: 3
+2025-12-28 15:02:28,545 - src.utils.logging - INFO - Startup data loading completed | context={}
+2025-12-28 15:06:35,095 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-28 15:06:35,946 - httpx - INFO - HTTP Request: POST https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content/points/search "HTTP/1.1 400 Bad Request"
+2025-12-28 15:06:36,201 - httpx - INFO - HTTP Request: POST https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content/points/search "HTTP/1.1 200 OK"
+2025-12-28 15:06:36,208 - backend.src.utils.qdrant - INFO - Retrieved 0 chunks from Qdrant
+2025-12-28 15:06:36,209 - agents.rag_agent - WARNING - No chunks retrieved from vector database, using general knowledge
+2025-12-28 15:06:36,209 - agents.rag_agent - WARNING - No context available, using general knowledge
+2025-12-28 15:06:38,854 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-28 15:07:53,498 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-28 15:07:54,040 - httpx - INFO - HTTP Request: POST https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content/points/search "HTTP/1.1 400 Bad Request"
+2025-12-28 15:07:54,295 - httpx - INFO - HTTP Request: POST https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content/points/search "HTTP/1.1 200 OK"
+2025-12-28 15:07:54,296 - backend.src.utils.qdrant - INFO - Retrieved 0 chunks from Qdrant
+2025-12-28 15:07:54,297 - agents.rag_agent - WARNING - No chunks retrieved from vector database, using general knowledge
+2025-12-28 15:07:54,297 - agents.rag_agent - WARNING - No context available, using general knowledge
+2025-12-28 15:07:55,363 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-28 15:08:09,225 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-28 15:08:10,073 - httpx - INFO - HTTP Request: POST https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content/points/search "HTTP/1.1 400 Bad Request"
+2025-12-28 15:08:10,335 - httpx - INFO - HTTP Request: POST https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content/points/search "HTTP/1.1 200 OK"
+2025-12-28 15:08:10,337 - backend.src.utils.qdrant - INFO - Retrieved 0 chunks from Qdrant
+2025-12-28 15:08:10,337 - agents.rag_agent - WARNING - No chunks retrieved from vector database, using general knowledge
+2025-12-28 15:08:10,338 - agents.rag_agent - WARNING - No context available, using general knowledge
+2025-12-28 15:08:11,756 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-28 15:08:29,075 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-28 15:08:30,234 - httpx - INFO - HTTP Request: POST https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content/points/search "HTTP/1.1 400 Bad Request"
+2025-12-28 15:08:30,496 - httpx - INFO - HTTP Request: POST https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content/points/search "HTTP/1.1 200 OK"
+2025-12-28 15:08:30,502 - backend.src.utils.qdrant - INFO - Retrieved 0 chunks from Qdrant
+2025-12-28 15:08:30,503 - agents.rag_agent - WARNING - No chunks retrieved from vector database, using general knowledge
+2025-12-28 15:08:30,503 - agents.rag_agent - WARNING - No context available, using general knowledge
+2025-12-28 15:08:31,960 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-28 15:08:57,029 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-28 15:08:57,580 - httpx - INFO - HTTP Request: POST https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content/points/search "HTTP/1.1 400 Bad Request"
+2025-12-28 15:08:57,830 - httpx - INFO - HTTP Request: POST https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content/points/search "HTTP/1.1 200 OK"
+2025-12-28 15:08:57,832 - backend.src.utils.qdrant - INFO - Retrieved 0 chunks from Qdrant
+2025-12-28 15:08:57,832 - agents.rag_agent - WARNING - No chunks retrieved from vector database, using general knowledge
+2025-12-28 15:08:57,833 - agents.rag_agent - WARNING - No context available, using general knowledge
+2025-12-28 15:09:00,313 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-28 15:09:15,465 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-28 15:09:16,031 - httpx - INFO - HTTP Request: POST https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content/points/search "HTTP/1.1 400 Bad Request"
+2025-12-28 15:09:16,283 - httpx - INFO - HTTP Request: POST https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content/points/search "HTTP/1.1 200 OK"
+2025-12-28 15:09:16,288 - backend.src.utils.qdrant - INFO - Retrieved 0 chunks from Qdrant
+2025-12-28 15:09:16,289 - agents.rag_agent - WARNING - No chunks retrieved from vector database, using general knowledge
+2025-12-28 15:09:16,289 - agents.rag_agent - WARNING - No context available, using general knowledge
+2025-12-28 15:09:17,724 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-28 15:09:34,706 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-28 15:09:35,249 - httpx - INFO - HTTP Request: POST https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content/points/search "HTTP/1.1 400 Bad Request"
+2025-12-28 15:09:35,523 - httpx - INFO - HTTP Request: POST https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content/points/search "HTTP/1.1 200 OK"
+2025-12-28 15:09:35,530 - backend.src.utils.qdrant - INFO - Retrieved 0 chunks from Qdrant
+2025-12-28 15:09:35,530 - agents.rag_agent - WARNING - No chunks retrieved from vector database, using general knowledge
+2025-12-28 15:09:35,531 - agents.rag_agent - WARNING - No context available, using general knowledge
+2025-12-28 15:09:36,857 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-28 15:10:09,732 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-28 15:10:10,378 - httpx - INFO - HTTP Request: POST https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content/points/search "HTTP/1.1 400 Bad Request"
+2025-12-28 15:10:10,634 - httpx - INFO - HTTP Request: POST https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content/points/search "HTTP/1.1 200 OK"
+2025-12-28 15:10:10,636 - backend.src.utils.qdrant - INFO - Retrieved 2 chunks from Qdrant
+2025-12-28 15:10:10,637 - agents.rag_agent - INFO - Retrieved 2 chunks from vector database
+2025-12-28 15:10:12,004 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-28 15:10:48,350 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-28 15:10:49,076 - httpx - INFO - HTTP Request: POST https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content/points/search "HTTP/1.1 400 Bad Request"
+2025-12-28 15:10:49,343 - httpx - INFO - HTTP Request: POST https://5bc4a721-7605-4bdc-80bd-313bdfc3c460.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content/points/search "HTTP/1.1 200 OK"
+2025-12-28 15:10:49,345 - backend.src.utils.qdrant - INFO - Retrieved 0 chunks from Qdrant
+2025-12-28 15:10:49,348 - agents.rag_agent - WARNING - No chunks retrieved from vector database, using general knowledge
+2025-12-28 15:10:49,349 - agents.rag_agent - WARNING - No context available, using general knowledge
+2025-12-28 15:10:50,943 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
